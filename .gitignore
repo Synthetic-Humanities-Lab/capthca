@@ -1,0 +1,7 @@
+.DS_Store
+dist/
+output/
+sources/originals/
+sources/gallery*.html
+sources/expansion.json
+assets/atlas.png
