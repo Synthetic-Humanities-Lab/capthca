@@ -6,12 +6,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/6J--NXulQCs",
     "download_url": "https://picsum.photos/id/10/2500/1667",
-    "asset": "assets/p10.jpg",
-    "sha256": "8638ba8e8730819e0a711f392791f4ccc026b83c2d8dee79b2c272912a0a1c8b",
+    "asset": "assets/tiles/inlet-p.jpg",
+    "sha256": "768362e9b7095a5a62b79211594e1f027b05b02b73e761082dd8ad9d1923a015",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p10.jpg",
+    "original_sha256": "8638ba8e8730819e0a711f392791f4ccc026b83c2d8dee79b2c272912a0a1c8b"
   },
   {
     "id": "11",
@@ -20,12 +22,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/Cm7oKel-X2Q",
     "download_url": "https://picsum.photos/id/11/2500/1667",
-    "asset": "assets/p11.jpg",
-    "sha256": "f6605fdd85d97874d8970e64f7a873457c9c61677ca2091164aa3651b1851f68",
+    "asset": "assets/tiles/meadow-p.jpg",
+    "sha256": "ce32c59ecfd1c92bb6dd5bf77c19ee1880762232c6d56bfa95b06c244cfbe946",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p11.jpg",
+    "original_sha256": "f6605fdd85d97874d8970e64f7a873457c9c61677ca2091164aa3651b1851f68"
   },
   {
     "id": "12",
@@ -34,12 +38,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/I_9ILwtsl_k",
     "download_url": "https://picsum.photos/id/12/2500/1667",
-    "asset": "assets/p12.jpg",
-    "sha256": "644f7ee4b190154999400dbb8e960ab2e7dcbcd32b642572c2cc3f4f1377f37c",
+    "asset": "assets/tiles/beach-p.jpg",
+    "sha256": "9f12c8645206320adbfc0ce4518b7d03fba9618c849b9d8869551fb22c51de5b",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p12.jpg",
+    "original_sha256": "644f7ee4b190154999400dbb8e960ab2e7dcbcd32b642572c2cc3f4f1377f37c"
   },
   {
     "id": "13",
@@ -48,12 +54,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/3MtiSMdnoCo",
     "download_url": "https://picsum.photos/id/13/2500/1667",
-    "asset": "assets/p13.jpg",
-    "sha256": "ad377dd1e977998eb3d21b63731359eeed9b5669b9b22f146ada49bc5ab77e77",
+    "asset": "assets/tiles/shore-p.jpg",
+    "sha256": "4797a6057fa37040d2e3d3219d9b51116ed7d50d68d9a02cc1fc200e8cf8c89a",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p13.jpg",
+    "original_sha256": "ad377dd1e977998eb3d21b63731359eeed9b5669b9b22f146ada49bc5ab77e77"
   },
   {
     "id": "14",
@@ -62,12 +70,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/IQ1kOQTJrOQ",
     "download_url": "https://picsum.photos/id/14/2500/1667",
-    "asset": "assets/p14.jpg",
-    "sha256": "50fb1dfdd9a1ff5707527274fb49fa7ba952150dd25f22b22ed277372ba9bd99",
+    "asset": "assets/tiles/coast-p.jpg",
+    "sha256": "c5a74995855d11aa21cce182a5ea8f575f67ff242edabc45eda5256ef49eddae",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p14.jpg",
+    "original_sha256": "50fb1dfdd9a1ff5707527274fb49fa7ba952150dd25f22b22ed277372ba9bd99"
   },
   {
     "id": "15",
@@ -76,12 +86,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/NYDo21ssGao",
     "download_url": "https://picsum.photos/id/15/2500/1667",
-    "asset": "assets/p15.jpg",
-    "sha256": "17f8fa4f2270ccaf2340c3380ff8895bbfd5d8eb124177934c74e7f3de72b894",
+    "asset": "assets/tiles/waterfall-p.jpg",
+    "sha256": "a98e7236ac17b75951ad2e4d44e1b4a61bdb9be942bfedac11824d048bf2c886",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p15.jpg",
+    "original_sha256": "17f8fa4f2270ccaf2340c3380ff8895bbfd5d8eb124177934c74e7f3de72b894"
   },
   {
     "id": "16",
@@ -90,12 +102,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/gkT4FfgHO5o",
     "download_url": "https://picsum.photos/id/16/2500/1667",
-    "asset": "assets/p16.jpg",
-    "sha256": "a6d176dd983c6f4f1db242ba8417e60dd67a5c6f85eb4b2dad7f8e3580379d20",
+    "asset": "assets/tiles/driftwood-p.jpg",
+    "sha256": "e518b9e0e355fd48c20873bb4d28a2573faabe974640a0411a3baa36df367742",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p16.jpg",
+    "original_sha256": "a6d176dd983c6f4f1db242ba8417e60dd67a5c6f85eb4b2dad7f8e3580379d20"
   },
   {
     "id": "17",
@@ -104,12 +118,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/Ven2CV8IJ5A",
     "download_url": "https://picsum.photos/id/17/2500/1667",
-    "asset": "assets/p17.jpg",
-    "sha256": "8d5f999a2146db76fbb6009c65f6d46047f0ee6ea623efb1ab2ef1a363a982b2",
+    "asset": "assets/tiles/path-p.jpg",
+    "sha256": "8132735159fbf527a407eb92020c7b5332c6146a0df33b412fc723851597c25a",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p17.jpg",
+    "original_sha256": "8d5f999a2146db76fbb6009c65f6d46047f0ee6ea623efb1ab2ef1a363a982b2"
   },
   {
     "id": "18",
@@ -118,12 +134,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/Ps2n0rShqaM",
     "download_url": "https://picsum.photos/id/18/2500/1667",
-    "asset": "assets/p18.jpg",
-    "sha256": "447f6765d62004d8b8ffa90765b8166f075ce34e0c186e41bfc9565e1787a1ce",
+    "asset": "assets/tiles/grass-p.jpg",
+    "sha256": "3cd9e6b23acfc1523329326c13f8828a1d1312fd2b29c52f5f9cf1af0c4ab941",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p18.jpg",
+    "original_sha256": "447f6765d62004d8b8ffa90765b8166f075ce34e0c186e41bfc9565e1787a1ce"
   },
   {
     "id": "19",
@@ -132,12 +150,14 @@
     "height": 1667,
     "url": "https://unsplash.com/photos/P7Lh0usGcuk",
     "download_url": "https://picsum.photos/id/19/2500/1667",
-    "asset": "assets/p19.jpg",
-    "sha256": "bf7c7e26bd9e703a038bd153a307f550695732fa747aa45273b92389c19a3270",
+    "asset": "assets/tiles/tree-p.jpg",
+    "sha256": "a6c6f09510c45c5db0539b662de19400d9c536695a30c11e3b2334b30fe43bd4",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p19.jpg",
+    "original_sha256": "bf7c7e26bd9e703a038bd153a307f550695732fa747aa45273b92389c19a3270"
   },
   {
     "id": "20",
@@ -146,12 +166,14 @@
     "height": 2462,
     "url": "https://unsplash.com/photos/nJdwUHmaY8A",
     "download_url": "https://picsum.photos/id/20/3670/2462",
-    "asset": "assets/p20.jpg",
-    "sha256": "524c1bf25cb66f805912ad981d575a6c07d2138e1b64e4cc26d2614411a33332",
+    "asset": "assets/tiles/desk-p.jpg",
+    "sha256": "74fcb14ac94d3a9f2029fd050b737cd6b9bbbf700dcf672d4d8a30c5afc6a117",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p20.jpg",
+    "original_sha256": "524c1bf25cb66f805912ad981d575a6c07d2138e1b64e4cc26d2614411a33332"
   },
   {
     "id": "24",
@@ -160,12 +182,14 @@
     "height": 1803,
     "url": "https://unsplash.com/photos/cZhUxIQjILg",
     "download_url": "https://picsum.photos/id/24/4855/1803",
-    "asset": "assets/p24.jpg",
-    "sha256": "355939f1c0a2aeed78a327d2dbae5556ca008703634d9365097efd924c80db87",
+    "asset": "assets/tiles/book-p.jpg",
+    "sha256": "3ba7bbefe44b5b722b1b286cf237e8f62e34bbfe771f21041361e37225027223",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p24.jpg",
+    "original_sha256": "355939f1c0a2aeed78a327d2dbae5556ca008703634d9365097efd924c80db87"
   },
   {
     "id": "25",
@@ -174,12 +198,14 @@
     "height": 3333,
     "url": "https://unsplash.com/photos/Iuq0EL4EINY",
     "download_url": "https://picsum.photos/id/25/5000/3333",
-    "asset": "assets/p25.jpg",
-    "sha256": "380bd60b0a500df6e319b32d4ec8023c59421770ed0fc9da82bc49fc520bd1f0",
+    "asset": "assets/tiles/stems-p.jpg",
+    "sha256": "8baa4830efeefc7a63e081431fd426f96d51c6da4a5e54a254cfdd5bb911019d",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p25.jpg",
+    "original_sha256": "380bd60b0a500df6e319b32d4ec8023c59421770ed0fc9da82bc49fc520bd1f0"
   },
   {
     "id": "27",
@@ -188,12 +214,14 @@
     "height": 1836,
     "url": "https://unsplash.com/photos/iJnZwLBOB1I",
     "download_url": "https://picsum.photos/id/27/3264/1836",
-    "asset": "assets/p27.jpg",
-    "sha256": "38e5ab48edc4843c61835bfd65a5e848476ab7c0ffc231c66e99e800ebd44878",
+    "asset": "assets/tiles/sunset-p.jpg",
+    "sha256": "cd169e249c66787078121d63e3279895c8eced3be1bba7e8e327e0d1395c882c",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p27.jpg",
+    "original_sha256": "38e5ab48edc4843c61835bfd65a5e848476ab7c0ffc231c66e99e800ebd44878"
   },
   {
     "id": "28",
@@ -202,12 +230,14 @@
     "height": 3264,
     "url": "https://unsplash.com/photos/_WiFMBRT7Aw",
     "download_url": "https://picsum.photos/id/28/4928/3264",
-    "asset": "assets/p28.jpg",
-    "sha256": "263c33e59c69e4150c21117f1ccfa17359e9a52ec89245ab656434075f4be2c1",
+    "asset": "assets/tiles/creek-p.jpg",
+    "sha256": "7d31e77d45966a4b38619ca207d63ed5aa5be9a036ef44ba65332d2ec13141ba",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p28.jpg",
+    "original_sha256": "263c33e59c69e4150c21117f1ccfa17359e9a52ec89245ab656434075f4be2c1"
   },
   {
     "id": "29",
@@ -216,12 +246,14 @@
     "height": 2670,
     "url": "https://unsplash.com/photos/V0yAek6BgGk",
     "download_url": "https://picsum.photos/id/29/4000/2670",
-    "asset": "assets/p29.jpg",
-    "sha256": "974e92dbdf1214d195a36ec17fbb7b77fe8bb3dde9ccb312ea196065c2d37f62",
+    "asset": "assets/tiles/mountain-p.jpg",
+    "sha256": "ff06c1aba754b357aba47968e9e79172e4d39a4ac6806a05ff51f7c0348949b6",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p29.jpg",
+    "original_sha256": "974e92dbdf1214d195a36ec17fbb7b77fe8bb3dde9ccb312ea196065c2d37f62"
   },
   {
     "id": "30",
@@ -230,12 +262,14 @@
     "height": 901,
     "url": "https://unsplash.com/photos/aeVA-j1y2BY",
     "download_url": "https://picsum.photos/id/30/1280/901",
-    "asset": "assets/p30.jpg",
-    "sha256": "75d48613aead70119fdba324ad59dfa5546394c825094ce21b71c1720880094b",
+    "asset": "assets/tiles/mug-p.jpg",
+    "sha256": "9dd95738b58f002379af5cf005654a5a626acb6fd033a8716f009b6adeb183db",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p30.jpg",
+    "original_sha256": "75d48613aead70119fdba324ad59dfa5546394c825094ce21b71c1720880094b"
   },
   {
     "id": "31",
@@ -244,12 +278,14 @@
     "height": 4912,
     "url": "https://unsplash.com/photos/7Vz3DtQDT3Q",
     "download_url": "https://picsum.photos/id/31/3264/4912",
-    "asset": "assets/p31.jpg",
-    "sha256": "2ad100f9bee71ba168e0e05885ba5c15fb5a48bdae45a4ab208ed97d27734279",
+    "asset": "assets/tiles/feet-p.jpg",
+    "sha256": "99bf23a4ea521c510621f6d7b1dec360cc7cbc48d2318f193e18d18bd57d1280",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p31.jpg",
+    "original_sha256": "2ad100f9bee71ba168e0e05885ba5c15fb5a48bdae45a4ab208ed97d27734279"
   },
   {
     "id": "32",
@@ -258,12 +294,14 @@
     "height": 3024,
     "url": "https://unsplash.com/photos/eG3k60PrTGY",
     "download_url": "https://picsum.photos/id/32/4032/3024",
-    "asset": "assets/p32.jpg",
-    "sha256": "089e1ae5ef424021b5fbd2578bb393e078522152bd075714bd01d3fced228215",
+    "asset": "assets/tiles/bench-p.jpg",
+    "sha256": "0bb9d2d67d109eb96cfc831e6b33348b36511aa4d8bfc20d62c9fb86f5b48edc",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p32.jpg",
+    "original_sha256": "089e1ae5ef424021b5fbd2578bb393e078522152bd075714bd01d3fced228215"
   },
   {
     "id": "33",
@@ -272,12 +310,14 @@
     "height": 3333,
     "url": "https://unsplash.com/photos/LBI7cgq3pbM",
     "download_url": "https://picsum.photos/id/33/5000/3333",
-    "asset": "assets/p33.jpg",
-    "sha256": "ca5b40822dd647b23950a51ea2d73c8f956141d66984215d5410d45dbf586e7b",
+    "asset": "assets/tiles/wildflowers-p.jpg",
+    "sha256": "41ac7932b8892a967cab32c782d86468c9bd512ac1b0da63a5bbde5d859dccd4",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p33.jpg",
+    "original_sha256": "ca5b40822dd647b23950a51ea2d73c8f956141d66984215d5410d45dbf586e7b"
   },
   {
     "id": "34",
@@ -286,12 +326,14 @@
     "height": 2592,
     "url": "https://unsplash.com/photos/zZvsEMPxjIA",
     "download_url": "https://picsum.photos/id/34/3872/2592",
-    "asset": "assets/p34.jpg",
-    "sha256": "71eb52d5087081cfda59b152aced991f14dc6eab025fb3f7d9f5f1629ca10ef7",
+    "asset": "assets/tiles/barrel-p.jpg",
+    "sha256": "6f8aca71c606beea0c8bca1b23c28355feb8d6dcec1dbcc1a0222ba407433ca4",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p34.jpg",
+    "original_sha256": "71eb52d5087081cfda59b152aced991f14dc6eab025fb3f7d9f5f1629ca10ef7"
   },
   {
     "id": "35",
@@ -300,12 +342,14 @@
     "height": 3622,
     "url": "https://unsplash.com/photos/znM0ujn2RUA",
     "download_url": "https://picsum.photos/id/35/2758/3622",
-    "asset": "assets/p35.jpg",
-    "sha256": "062a9cdd6b22d1ff86327213c1fc30483a65aad17681219ca80d972116f61643",
+    "asset": "assets/tiles/cactus-p.jpg",
+    "sha256": "6d8c0ad59b252104d71ac4fbca0a6bf43d26048692a0536b802267b03e1609be",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p35.jpg",
+    "original_sha256": "062a9cdd6b22d1ff86327213c1fc30483a65aad17681219ca80d972116f61643"
   },
   {
     "id": "36",
@@ -314,12 +358,14 @@
     "height": 2790,
     "url": "https://unsplash.com/photos/osSryggkso4",
     "download_url": "https://picsum.photos/id/36/4179/2790",
-    "asset": "assets/p36.jpg",
-    "sha256": "9f82cb2c100d680e896aec4a32e8bf0a8b8f30e6023b656d03113c13a231695d",
+    "asset": "assets/tiles/electronics-p.jpg",
+    "sha256": "2d97d1d608776117f16c016452059373d290695250f5b2d90bc5fe6a73a75370",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p36.jpg",
+    "original_sha256": "9f82cb2c100d680e896aec4a32e8bf0a8b8f30e6023b656d03113c13a231695d"
   },
   {
     "id": "37",
@@ -328,12 +374,14 @@
     "height": 1333,
     "url": "https://unsplash.com/photos/erTjj730fMk",
     "download_url": "https://picsum.photos/id/37/2000/1333",
-    "asset": "assets/p37.jpg",
-    "sha256": "572f2b25719543100562da43313112290662c7fedc635d957d76ea335e70e34a",
+    "asset": "assets/tiles/cliff-p.jpg",
+    "sha256": "289a6fd34ee98b41cbc7d103dfc7315a606fe5bc12f814f506a35f9ab530e662",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p37.jpg",
+    "original_sha256": "572f2b25719543100562da43313112290662c7fedc635d957d76ea335e70e34a"
   },
   {
     "id": "38",
@@ -342,12 +390,14 @@
     "height": 960,
     "url": "https://unsplash.com/photos/JabLtzJl8bc",
     "download_url": "https://picsum.photos/id/38/1280/960",
-    "asset": "assets/p38.jpg",
-    "sha256": "2d41bbbaef2309051f80a9e5076d1184d673180104bae1a05f4c22abb156a0c6",
+    "asset": "assets/tiles/cloud-p.jpg",
+    "sha256": "e5504548e2a087cf67c03336f531cbfb830f0a009a58b26fce2b41216edea8dd",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p38.jpg",
+    "original_sha256": "2d41bbbaef2309051f80a9e5076d1184d673180104bae1a05f4c22abb156a0c6"
   },
   {
     "id": "39",
@@ -356,12 +406,14 @@
     "height": 2304,
     "url": "https://unsplash.com/photos/pFqrYbhIAXs",
     "download_url": "https://picsum.photos/id/39/3456/2304",
-    "asset": "assets/p39.jpg",
-    "sha256": "153face274cf6bc475003aa2bec7f8909670e096b53f7564125535f3c4a7e934",
+    "asset": "assets/tiles/turntable-p.jpg",
+    "sha256": "9f55d3ae8fe58f69875c37cc239e53f024d7c1f62d5e306ff61d60850aa4fa84",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p39.jpg",
+    "original_sha256": "153face274cf6bc475003aa2bec7f8909670e096b53f7564125535f3c4a7e934"
   },
   {
     "id": "40",
@@ -370,12 +422,14 @@
     "height": 2806,
     "url": "https://unsplash.com/photos/N-1XGL54pQg",
     "download_url": "https://picsum.photos/id/40/4106/2806",
-    "asset": "assets/p40.jpg",
-    "sha256": "e69e99a44be167f8375181490de92e4c3bde609b11b6ccd50c2d7f23f1ef3c7e",
+    "asset": "assets/tiles/cat-p.jpg",
+    "sha256": "5ded8eade4fc9c8c51efe906bc8df284608eb858bb8bd0d03629869aa450f9c0",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p40.jpg",
+    "original_sha256": "e69e99a44be167f8375181490de92e4c3bde609b11b6ccd50c2d7f23f1ef3c7e"
   },
   {
     "id": "41",
@@ -384,12 +438,14 @@
     "height": 805,
     "url": "https://unsplash.com/photos/fTKetYpEKNQ",
     "download_url": "https://picsum.photos/id/41/1280/805",
-    "asset": "assets/p41.jpg",
-    "sha256": "a1a6197b47ab2f78d369ff468ba68162dd6a598ddead66c8726c7677f8f68670",
+    "asset": "assets/tiles/droplets-p.jpg",
+    "sha256": "6d8998fc1e4fec9340c90cfdba3b3971aa7b3180b4c51f94d7bc88a2105feff5",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p41.jpg",
+    "original_sha256": "a1a6197b47ab2f78d369ff468ba68162dd6a598ddead66c8726c7677f8f68670"
   },
   {
     "id": "42",
@@ -398,12 +454,14 @@
     "height": 2304,
     "url": "https://unsplash.com/photos/KR2mdHJ5qMg",
     "download_url": "https://picsum.photos/id/42/3456/2304",
-    "asset": "assets/p42.jpg",
-    "sha256": "2f8b6e983b00d1d5de0f81fe1281b14cb0236b0c4037fd006ea54fc0b6b6e45c",
+    "asset": "assets/tiles/cafe-p.jpg",
+    "sha256": "344712580c1bc47b7f6230c0a9b707b09154063cd9ce66b71158806dedb60dee",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p42.jpg",
+    "original_sha256": "2f8b6e983b00d1d5de0f81fe1281b14cb0236b0c4037fd006ea54fc0b6b6e45c"
   },
   {
     "id": "43",
@@ -412,12 +470,14 @@
     "height": 831,
     "url": "https://unsplash.com/photos/IoCWq07GaG4",
     "download_url": "https://picsum.photos/id/43/1280/831",
-    "asset": "assets/p43.jpg",
-    "sha256": "53ff1e3f3184fba437d6faedf2b5e25bf2f7643cfd0c8a1aef68f4cf5308e868",
+    "asset": "assets/tiles/bridge-p.jpg",
+    "sha256": "d2057851f41b2c31e5e2e5e8eee64bfd9e19c93f90c3df24c837ccd23f7ce7ec",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p43.jpg",
+    "original_sha256": "53ff1e3f3184fba437d6faedf2b5e25bf2f7643cfd0c8a1aef68f4cf5308e868"
   },
   {
     "id": "44",
@@ -426,12 +486,14 @@
     "height": 2848,
     "url": "https://unsplash.com/photos/R1E6x8U83Ho",
     "download_url": "https://picsum.photos/id/44/4272/2848",
-    "asset": "assets/p44.jpg",
-    "sha256": "0573ac116eaa404af95139b7edb2c6d52be6465f431d2cc1b85386f882a77912",
+    "asset": "assets/tiles/fog-p.jpg",
+    "sha256": "3eabdbca73557b0263c0ad89bcd19466a08efdd951c45bb1c71c8a02036861ae",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p44.jpg",
+    "original_sha256": "0573ac116eaa404af95139b7edb2c6d52be6465f431d2cc1b85386f882a77912"
   },
   {
     "id": "45",
@@ -440,12 +502,14 @@
     "height": 2576,
     "url": "https://unsplash.com/photos/-XA-fTYYfV0",
     "download_url": "https://picsum.photos/id/45/4592/2576",
-    "asset": "assets/p45.jpg",
-    "sha256": "6a11ff3acfcfa00c393e11fde7a1ff4f9f52bd9e8a0245636bbeffbe03b9dabc",
+    "asset": "assets/tiles/rickshaw-p.jpg",
+    "sha256": "d8faae7552df13f474ae1021881944004a1be7b3695681e1f4d8256a7d9c6d0b",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p45.jpg",
+    "original_sha256": "6a11ff3acfcfa00c393e11fde7a1ff4f9f52bd9e8a0245636bbeffbe03b9dabc"
   },
   {
     "id": "46",
@@ -454,12 +518,14 @@
     "height": 2448,
     "url": "https://unsplash.com/photos/Nzw3HHsNHYU",
     "download_url": "https://picsum.photos/id/46/3264/2448",
-    "asset": "assets/p46.jpg",
-    "sha256": "b9ee06c3b15b6e888aadb42cae56f6b7e5aa5002596e6c1da0e1d691028339f8",
+    "asset": "assets/tiles/badlands-p.jpg",
+    "sha256": "8a01d72ff385fb5575299a8a4ca82e90f4449e68df2988c44cd8794fa2aba62b",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p46.jpg",
+    "original_sha256": "b9ee06c3b15b6e888aadb42cae56f6b7e5aa5002596e6c1da0e1d691028339f8"
   },
   {
     "id": "47",
@@ -468,12 +534,14 @@
     "height": 2848,
     "url": "https://unsplash.com/photos/uDUiRS8YroY",
     "download_url": "https://picsum.photos/id/47/4272/2848",
-    "asset": "assets/p47.jpg",
-    "sha256": "b95f6821b5dcde1f2363226ef85f996df453b7a3fdaed70577549de6ef53d214",
+    "asset": "assets/tiles/pier-p.jpg",
+    "sha256": "7f893491c683e916f98d715f11a1cc7d372fc27975db297230ecb0084b7abd18",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p47.jpg",
+    "original_sha256": "b95f6821b5dcde1f2363226ef85f996df453b7a3fdaed70577549de6ef53d214"
   },
   {
     "id": "48",
@@ -482,12 +550,14 @@
     "height": 3333,
     "url": "https://unsplash.com/photos/1uxV8fAfhVM",
     "download_url": "https://picsum.photos/id/48/5000/3333",
-    "asset": "assets/p48.jpg",
-    "sha256": "3df14f82682cd3621bb886a73d9be0762ed5e79f97c0fff8e44d5bc1f9b91953",
+    "asset": "assets/tiles/laptop-p.jpg",
+    "sha256": "efe76a39be836ba746349f78f8e8468c72ea59670296a2e9fb57664590dca50b",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p48.jpg",
+    "original_sha256": "3df14f82682cd3621bb886a73d9be0762ed5e79f97c0fff8e44d5bc1f9b91953"
   },
   {
     "id": "49",
@@ -496,12 +566,14 @@
     "height": 792,
     "url": "https://unsplash.com/photos/Qo51KwK1dKg",
     "download_url": "https://picsum.photos/id/49/1280/792",
-    "asset": "assets/p49.jpg",
-    "sha256": "d983c9f09cf2753f112a5d517ea142c357e676c0852066d664971385360efa30",
+    "asset": "assets/tiles/village-p.jpg",
+    "sha256": "bab841c75b43e130f836928cef8dd66f51434aa76dc2b2f81d8ae7df9d45ff6e",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p49.jpg",
+    "original_sha256": "d983c9f09cf2753f112a5d517ea142c357e676c0852066d664971385360efa30"
   },
   {
     "id": "50",
@@ -510,12 +582,14 @@
     "height": 3072,
     "url": "https://unsplash.com/photos/L7MpmBGpM94",
     "download_url": "https://picsum.photos/id/50/4608/3072",
-    "asset": "assets/p50.jpg",
-    "sha256": "cf9926202ee80522b8adac7a65828af0889203ea896e00ffe19eb4795646782a",
+    "asset": "assets/tiles/bird-p.jpg",
+    "sha256": "b94fe782d00b611fe797f21834d2b7567467dd115df2e88f5712ef10afa97163",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p50.jpg",
+    "original_sha256": "cf9926202ee80522b8adac7a65828af0889203ea896e00ffe19eb4795646782a"
   },
   {
     "id": "51",
@@ -524,12 +598,14 @@
     "height": 3333,
     "url": "https://unsplash.com/photos/knYQ6arClBE",
     "download_url": "https://picsum.photos/id/51/5000/3333",
-    "asset": "assets/p51.jpg",
-    "sha256": "5b738b7607b169a95121c49d868baba8b970c7fa444464a92ad725e78aa9c4a7",
+    "asset": "assets/tiles/overcast-beach-p.jpg",
+    "sha256": "f93bf89b82b7d344dd1bcfe242f95e619285c846f55412692ca014e44639f313",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p51.jpg",
+    "original_sha256": "5b738b7607b169a95121c49d868baba8b970c7fa444464a92ad725e78aa9c4a7"
   },
   {
     "id": "52",
@@ -538,12 +614,14 @@
     "height": 853,
     "url": "https://unsplash.com/photos/57vHdjeZ0yg",
     "download_url": "https://picsum.photos/id/52/1280/853",
-    "asset": "assets/p52.jpg",
-    "sha256": "c4fd5f90228bca5761d36acdcfca806dce4e55c77c08d7721b0273f8a6c37de2",
+    "asset": "assets/tiles/deck-p.jpg",
+    "sha256": "311f6b6fcc840553b203a728fdde33fd074d9662f5823d6baa8a2a69c32efba4",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p52.jpg",
+    "original_sha256": "c4fd5f90228bca5761d36acdcfca806dce4e55c77c08d7721b0273f8a6c37de2"
   },
   {
     "id": "53",
@@ -552,12 +630,14 @@
     "height": 1280,
     "url": "https://unsplash.com/photos/6qORI5j_6n8",
     "download_url": "https://picsum.photos/id/53/1280/1280",
-    "asset": "assets/p53.jpg",
-    "sha256": "3621c64fe084cd4508f57f381684ec167e2728b8f2a5cb25b7c547d27056b22d",
+    "asset": "assets/tiles/cirrus-p.jpg",
+    "sha256": "4288c4dcfdb909338b9febb943a1293604bd899f08ad17f37d6af3aac763a537",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p53.jpg",
+    "original_sha256": "3621c64fe084cd4508f57f381684ec167e2728b8f2a5cb25b7c547d27056b22d"
   },
   {
     "id": "54",
@@ -566,12 +646,14 @@
     "height": 2176,
     "url": "https://unsplash.com/photos/d19by2PLaPc",
     "download_url": "https://picsum.photos/id/54/3264/2176",
-    "asset": "assets/p54.jpg",
-    "sha256": "ee610c3e7830f1118dd05703871771d183fc35768003df4251a0d7b0d740af13",
+    "asset": "assets/tiles/hilltop-p.jpg",
+    "sha256": "940eeec47505946fb85043909c79d1141596f745940dc8e446c2e016778b57fb",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p54.jpg",
+    "original_sha256": "ee610c3e7830f1118dd05703871771d183fc35768003df4251a0d7b0d740af13"
   },
   {
     "id": "55",
@@ -580,12 +662,14 @@
     "height": 3072,
     "url": "https://unsplash.com/photos/akbHiqZy4Pg",
     "download_url": "https://picsum.photos/id/55/4608/3072",
-    "asset": "assets/p55.jpg",
-    "sha256": "24b08906d44afce6291799c84f9799272473048f446e395d90d278ed4e0e0839",
+    "asset": "assets/tiles/seedling-p.jpg",
+    "sha256": "ce4d32c033028299127394694a5957246944f45e2a0f591878692019048dfbce",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p55.jpg",
+    "original_sha256": "24b08906d44afce6291799c84f9799272473048f446e395d90d278ed4e0e0839"
   },
   {
     "id": "56",
@@ -594,12 +678,14 @@
     "height": 1920,
     "url": "https://unsplash.com/photos/VLdaxYyXJvw",
     "download_url": "https://picsum.photos/id/56/2880/1920",
-    "asset": "assets/p56.jpg",
-    "sha256": "d6afe8c9e06d7026628f35e7a204108d57f0ee9260d7c4b2297f9f4c303589e6",
+    "asset": "assets/tiles/bokeh-p.jpg",
+    "sha256": "f895216fe719d4cf5223d76dbfd834138bb06b1d3f29933e9a80dd9699625cae",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p56.jpg",
+    "original_sha256": "d6afe8c9e06d7026628f35e7a204108d57f0ee9260d7c4b2297f9f4c303589e6"
   },
   {
     "id": "57",
@@ -608,12 +694,14 @@
     "height": 3264,
     "url": "https://unsplash.com/photos/SyBYM8R6VU4",
     "download_url": "https://picsum.photos/id/57/2448/3264",
-    "asset": "assets/p57.jpg",
-    "sha256": "ad0b10dbf468c299a5dface0053f6dbccd5fc599b14d80fdf543fb1f78260295",
+    "asset": "assets/tiles/street-p.jpg",
+    "sha256": "61d9680c0cf99941fdff6218a6344ccf49bff61615cd255d7f89cc344c78441a",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p57.jpg",
+    "original_sha256": "ad0b10dbf468c299a5dface0053f6dbccd5fc599b14d80fdf543fb1f78260295"
   },
   {
     "id": "58",
@@ -622,12 +710,14 @@
     "height": 853,
     "url": "https://unsplash.com/photos/-kEr-QltARg",
     "download_url": "https://picsum.photos/id/58/1280/853",
-    "asset": "assets/p58.jpg",
-    "sha256": "3168c7138d49f7f4df919c6c17a68a8567d9705dd86c5d3d0b6a9406acad9bc1",
+    "asset": "assets/tiles/lighthouse-p.jpg",
+    "sha256": "9e0f3b98135bb78826b1b506002461217e18ce620380749d62d2d40505dad990",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p58.jpg",
+    "original_sha256": "3168c7138d49f7f4df919c6c17a68a8567d9705dd86c5d3d0b6a9406acad9bc1"
   },
   {
     "id": "59",
@@ -636,12 +726,14 @@
     "height": 1632,
     "url": "https://unsplash.com/photos/algEQavPY4M",
     "download_url": "https://picsum.photos/id/59/2464/1632",
-    "asset": "assets/p59.jpg",
-    "sha256": "c93a4ac1355ee49faf8c9d64b0a7dbf0a47c22add60d0aab177be2b8b44debe6",
+    "asset": "assets/tiles/fence-p.jpg",
+    "sha256": "dd3a531a438cff0bb72de14dc2eaf38893ecf09010ab2e3c55ffc6e76567ab03",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p59.jpg",
+    "original_sha256": "c93a4ac1355ee49faf8c9d64b0a7dbf0a47c22add60d0aab177be2b8b44debe6"
   },
   {
     "id": "60",
@@ -650,12 +742,14 @@
     "height": 1200,
     "url": "https://unsplash.com/photos/Hi9GSwWkCJk",
     "download_url": "https://picsum.photos/id/60/1920/1200",
-    "asset": "assets/p60.jpg",
-    "sha256": "e351eebb677090ac6ae8ecec2a7044cc2fa686d7bb17bc51287a91c5f637f0d5",
+    "asset": "assets/tiles/workspace-p.jpg",
+    "sha256": "0e377dcf81ba5bc58563f62c1942f65b566d2d8088d32298a098a664ecae9a81",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p60.jpg",
+    "original_sha256": "e351eebb677090ac6ae8ecec2a7044cc2fa686d7bb17bc51287a91c5f637f0d5"
   },
   {
     "id": "61",
@@ -664,12 +758,14 @@
     "height": 2448,
     "url": "https://unsplash.com/photos/zMz14hsbpuU",
     "download_url": "https://picsum.photos/id/61/3264/2448",
-    "asset": "assets/p61.jpg",
-    "sha256": "fa996b614e02b2f7f44ae067cdf9bc4aa43ac0a136551c292a31322bec3f603a",
+    "asset": "assets/tiles/rooftops-p.jpg",
+    "sha256": "2d637ffa3b80520b0d4fd3c213daaac7b077438c75d1d750b2590393fd58b41e",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p61.jpg",
+    "original_sha256": "fa996b614e02b2f7f44ae067cdf9bc4aa43ac0a136551c292a31322bec3f603a"
   },
   {
     "id": "62",
@@ -678,12 +774,14 @@
     "height": 1333,
     "url": "https://unsplash.com/photos/PzPbh-faPgU",
     "download_url": "https://picsum.photos/id/62/2000/1333",
-    "asset": "assets/p62.jpg",
-    "sha256": "86904e46f0af317e52414fafe7e228ba6a5b3ea9c97ef0fd696d20a66cd9ab7a",
+    "asset": "assets/tiles/valley-p.jpg",
+    "sha256": "b5c8dacc417fdbe7ae7db954cef795104c9ebf2fc60e266d104f64aa1e2f3272",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p62.jpg",
+    "original_sha256": "86904e46f0af317e52414fafe7e228ba6a5b3ea9c97ef0fd696d20a66cd9ab7a"
   },
   {
     "id": "63",
@@ -692,11 +790,13 @@
     "height": 2813,
     "url": "https://unsplash.com/photos/ZJsseAxEcqM",
     "download_url": "https://picsum.photos/id/63/5000/2813",
-    "asset": "assets/p63.jpg",
-    "sha256": "9c8f98706b838ec8c08efdb84b7c154206be8b93c005468a1b14a039b4cc3bbe",
+    "asset": "assets/tiles/coffee-p.jpg",
+    "sha256": "2af5f2b0d0ce05861cc782b1cce07c0ae397fabbf40e6e570a5e71deb5985466",
     "retrieved": "2026-10-12",
     "license": "Unsplash License",
     "license_url": "https://unsplash.com/license",
-    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference."
+    "origin_basis": "Attributed photographic source in the Picsum/Unsplash collection; no AI-detector inference.",
+    "original_asset": "assets/p63.jpg",
+    "original_sha256": "9c8f98706b838ec8c08efdb84b7c154206be8b93c005468a1b14a039b4cc3bbe"
   }
 ]

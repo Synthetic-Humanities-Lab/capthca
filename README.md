@@ -32,7 +32,9 @@ The build writes only the game and its referenced images to `dist/`. GitHub Acti
 
 The library has **100 images: 50 photographs and 50 generated images**, organized into 50 matched subjects. Every challenge selects nine different subjects, with three to six photographs. The count is not disclosed. A photograph and its generated counterpart never appear in the same challenge.
 
-All source images receive the same two-pixel edge trim and are rasterized to 256-pixel square JPEGs at identical quality in the browser. The generated atlases are stored as compressed JPEGs to keep downloads small. Photographs and generated images share subject descriptions; neither visible text nor accessible names reveal origin.
+All source images receive the same two-pixel edge trim and are prepared as individual 256-pixel square JPEGs at identical quality. Each round downloads only its nine tiles; no full image sheets or browser-side canvas conversion are needed. Photographs and generated images share subject descriptions; neither visible text nor accessible names reveal origin.
+
+Phone layouts retain the familiar vertical CAPTCHA in portrait. Short landscape screens place the instructions and Verify button beside the grid so the whole challenge remains visible. The Verify target is 48 pixels high; safe-area insets, reduced motion, and touch input are supported without disabling pinch zoom. Automated checks cap the combined size of even the nine largest tile files at 350 kB.
 
 The previous challenge's sorted IDs are stored in sessionStorage to avoid an identical set on the next reload. Nothing is transmitted. If storage is blocked, play still works, but the no-repeat guarantee is unavailable. The library is finite: combinations vary, and individual images recur.
 
@@ -44,7 +46,9 @@ Difficulty comes from matched subject matter, small images, and an all-or-nothin
 
 Origin labels follow the source library's photographic attribution, not an AI detector. Original Unsplash pages returned HTTP 401 during the initial build, so individual publication dates were not independently recovered. A [Wikimedia record for image 10](https://commons.wikimedia.org/wiki/File:Forest%26lake%28byPJrvs%29.jpg) independently documents that same source photo in 2014. Photographic origin does not mean an image has never been color-corrected or edited.
 
-**Generated images:** 50 cells across four atlases, made for this project with the built-in image generation tool. [`sources/generation.json`](sources/generation.json) records the full prompts, atlas dimensions, cell counts, and original and published hashes. Subjects include landscapes, everyday objects, interiors, street scenes, animals, and close-ups. Original PNG outputs are retained locally; the published repository contains the compressed game assets and generation records.
+**Generated images:** 50 images made for this project with the built-in image generation tool, initially generated in four atlases and then exported as individual tiles. [`sources/generation.json`](sources/generation.json) records the full prompts, original dimensions, source cells, and per-tile hashes. Subjects include landscapes, everyday objects, interiors, street scenes, animals, and close-ups. Original PNG outputs and photographic downloads are retained locally; the published repository contains the 100 prepared game images and source records.
+
+The optional `npm run prepare:images` command uses macOS `sips` and requires those locally archived originals at the paths in the source records. It is not needed to run, check, build, or deploy the checked-in game.
 
 ## Implementation
 
@@ -53,6 +57,7 @@ Origin labels follow the source library's photographic attribution, not an AI de
 - `app.js`: loading, selection, one-way submission, and focus.
 - `style.css`: the deliberately ordinary CAPTCHA interface.
 - `scripts/build.js`: an explicit allowlist of deployable files.
+- `scripts/prepare-images.js`: optional offline tile preparation from archived originals.
 - `tests/game.test.js`: balance, provenance, file integrity, sampling, and verdict checks.
 
 All nine images must load and decode before selection or verification is enabled. A broken asset produces an explicit loading error, never a verdict. Native buttons support pointer, touch, Tab, Space, and Enter. Motion respects the system reduced-motion setting. The image descriptions name subjects without revealing origin; the game still depends on visual discrimination.

@@ -20,8 +20,7 @@ test('every subject has exactly one documented photograph and one generated imag
   assert.equal(imageLibrary.filter(image => !image.human).length, 50);
   const photos = JSON.parse(await readFile(new URL('../sources/photographs.json', import.meta.url), 'utf8'));
   for (const image of imageLibrary.filter(image => image.human)) {
-    const id = image.src.match(/p(\d+)\.jpg$/)[1];
-    const source = photos.find(photo => photo.id === id);
+    const source = photos.find(photo => photo.asset === image.src);
     assert.ok(source?.author);
     assert.match(source?.url, /^https:\/\/unsplash\.com\/photos\//);
   }
@@ -32,13 +31,14 @@ test('every generated tile occupies a unique documented atlas cell', async () =>
   assert.equal(generations.reduce((sum, record) => sum + record.images, 0), 50);
   const cells = new Set();
   for (const image of imageLibrary.filter(image => !image.human)) {
-    const record = generations.find(record => record.asset === image.src);
+    const record = generations.find(record => record.local_atlas === image.sourceAtlas);
     assert.ok(record?.prompt);
-    assert.equal(image.cell.columns, record.columns);
-    assert.equal(image.cell.rows, record.rows);
-    assert.ok(image.cell.column >= 0 && image.cell.column < record.columns);
-    assert.ok(image.cell.row >= 0 && image.cell.row < record.rows);
-    cells.add(`${image.src}:${image.cell.row}:${image.cell.column}`);
+    assert.equal(image.sourceCell.columns, record.columns);
+    assert.equal(image.sourceCell.rows, record.rows);
+    assert.ok(image.sourceCell.column >= 0 && image.sourceCell.column < record.columns);
+    assert.ok(image.sourceCell.row >= 0 && image.sourceCell.row < record.rows);
+    assert.ok(record.tiles.find(tile => tile.asset === image.src && tile.id === image.id));
+    cells.add(`${image.sourceAtlas}:${image.sourceCell.row}:${image.sourceCell.column}`);
   }
   assert.equal(cells.size, 50);
 });
@@ -48,10 +48,36 @@ test('source records match shipped files and photographs are not duplicated', as
   const generations = JSON.parse(await readFile(new URL('../sources/generation.json', import.meta.url), 'utf8'));
   assert.equal(photos.length, 50);
   assert.equal(new Set(photos.map(photo => photo.sha256)).size, 50);
-  for (const record of [...photos, ...generations]) {
+  for (const record of [...photos, ...generations.flatMap(record => record.tiles)]) {
     const bytes = await readFile(new URL(`../${record.asset}`, import.meta.url));
-    assert.equal(createHash('sha256').update(bytes).digest('hex'), record.sha256 ?? record.published_sha256);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), record.sha256);
   }
+});
+
+function jpegDimensions(buffer) {
+  for (let offset = 2; offset < buffer.length;) {
+    assert.equal(buffer[offset], 0xff, 'Expected a JPEG marker');
+    const marker = buffer[offset + 1];
+    if ([0xc0, 0xc1, 0xc2].includes(marker)) {
+      return [buffer.readUInt16BE(offset + 7), buffer.readUInt16BE(offset + 5)];
+    }
+    offset += 2 + buffer.readUInt16BE(offset + 2);
+  }
+  throw new Error('JPEG dimensions not found');
+}
+
+test('all 100 phone-ready tiles are distinct 256px JPEGs and nine downloads stay below 350 kB', async () => {
+  assert.equal(new Set(imageLibrary.map(image => image.src)).size, 100);
+  const sizes = [];
+  const hashes = new Set();
+  for (const image of imageLibrary) {
+    const bytes = await readFile(new URL(`../${image.src}`, import.meta.url));
+    assert.deepEqual(jpegDimensions(bytes), [256, 256]);
+    sizes.push(bytes.length);
+    hashes.add(createHash('sha256').update(bytes).digest('hex'));
+  }
+  assert.equal(hashes.size, 100);
+  assert.ok(sizes.sort((a, b) => b - a).slice(0, 9).reduce((sum, size) => sum + size, 0) < 350000);
 });
 
 test('all referenced image files exist and have the expected file signatures', async () => {

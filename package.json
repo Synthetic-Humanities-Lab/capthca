@@ -1,12 +1,13 @@
 {
   "name": "capthca",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "python3 -m http.server 4177 --bind 127.0.0.1",
     "build": "node scripts/build.js",
+    "prepare:images": "node scripts/prepare-images.js",
     "test": "node --test",
-    "check": "node --check app.js && node --check game.js && node --check assets.js && node --check scripts/build.js"
+    "check": "node --check app.js && node --check game.js && node --check assets.js && node --check scripts/build.js && node --check scripts/prepare-images.js"
   }
 }

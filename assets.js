@@ -61,10 +61,10 @@ const groups = [
 
 export const imageLibrary = groups.flatMap(({ atlas, columns, rows, subjects }) => (
   subjects.flatMap(([subject, photoId, description], index) => [
-  { id: `${subject}-p`, subject, human: true, src: `assets/p${photoId}.jpg`, description },
+  { id: `${subject}-p`, subject, human: true, src: `assets/tiles/${subject}-p.jpg`, sourcePhotoId: photoId, description },
   {
-    id: `${subject}-g`, subject, human: false, src: atlas, description,
-    cell: { column: index % columns, row: Math.floor(index / columns), columns, rows },
+    id: `${subject}-g`, subject, human: false, src: `assets/tiles/${subject}-g.jpg`, sourceAtlas: atlas, description,
+    sourceCell: { column: index % columns, row: Math.floor(index / columns), columns, rows },
   },
   ])
 ));

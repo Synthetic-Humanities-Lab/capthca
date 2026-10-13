@@ -2,7 +2,6 @@
   {
     "tool": "Built-in image_gen.imagegen",
     "created": "2026-10-12",
-    "asset": "assets/atlas-a.jpg",
     "width": 1254,
     "height": 1254,
     "rows": 4,
@@ -11,41 +10,624 @@
     "prompt": "Use case: photorealistic-natural.\nAsset type: a single square photographic texture atlas for an art game: exactly FOUR columns and FOUR rows, sixteen equally sized square panels, with zero gutters, zero margins, zero frames, zero labels. The image must be square. Each cell is a completely independent believable photograph, never a continuous scene spanning cells.\nPrimary request: create sixteen extremely convincing ordinary amateur travel/nature/still-life photographs. They should be difficult to distinguish from photographs taken with consumer digital cameras around 2014. Natural slightly imperfect framing, varied exposure and white balance, fine sensor grain, unremarkable believable physical details. Mostly daylight, restrained muted natural colors, occasional brighter greens or blues. No illustration, no CGI sheen, no cinematic grading, no dramatic fantasy, no conspicuous errors.\nPanels in strict row-major order:\nrow 1: (1) conifer treetops above a deep blue inlet with low mountains far away, seen from an overlook; (2) shallow winding stream through wet meadow with forest and low fog; (3) ordinary beach at low tide with dark foreground rocks and distant wooded island; (4) pebbly lakeshore, blue water, evergreen trees along the left shore.\nrow 2: (5) uneven coastal rocks beside flat gray sea under pale overcast sky; (6) small narrow waterfall dropping into rocky forest creek with scattered fallen logs; (7) bleached driftwood and rounded stones at blue lake edge; (8) straight pale gravel footpath between meadow grass and deciduous trees.\nrow 3: (9) close photograph of grass seed stems with out-of-focus green meadow and blue sky; (10) close upward view along a moss-covered tree trunk into leafy branches; (11) overhead casual desk with partial cream keyboard, closed muted-color books and open notebook, tiny markings illegible; (12) close shallow-focus open paperback on a dark wooden table, illegible tiny print, cream wall behind.\nrow 4: (13) dried branching flower stems backlit by pale pink evening sky; (14) amber sunset across low ocean surf viewed from sandstone shore; (15) rocky creek in lush deciduous woodland in early summer; (16) steep gray snowy mountain valley with low clouds and blue sky.\nConstraints: every panel independently composed, no text overlays, no numbering, no watermark, no borders, exact regular 4 by 4 grid occupying entire square image. No people or animals. This is one texture atlas, not a screenshot of a CAPTCHA. Aim for plausible photographs rather than beautiful illustrations.",
     "original": "sources/originals/atlas-a.png",
     "original_sha256": "9f318d76a178abc479e585a6aa6a8a32580a3d424d8d7bc1bbad160847fb029e",
-    "published_sha256": "cc19ba22664ae97053304be18d62665a542ca4bd159c161a3b85575a3ffd3310",
     "images": 16,
-    "encoding": "JPEG quality 82; original pixels retained before encoding; browser crops 2px from each tile edge and rasterizes all sources identically."
+    "encoding": "Each source cell trimmed by 2px, resized to 256 by 256, and JPEG encoded at quality 82 using macOS sips; same treatment as photographs.",
+    "tiles": [
+      {
+        "id": "inlet-g",
+        "asset": "assets/tiles/inlet-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "20e3ea0c4be74d04af135b308650fcb984f625eefb4223a4e22c73083b0a279d",
+        "bytes": 27325
+      },
+      {
+        "id": "meadow-g",
+        "asset": "assets/tiles/meadow-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "848455039f9ccd6b8c3c8c0d13c84997c9550d70f21d77f8e2639c720f1fa78e",
+        "bytes": 25827
+      },
+      {
+        "id": "beach-g",
+        "asset": "assets/tiles/beach-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "4d43473f2aa7c42e0bf4819ffabbf7d752da242811b03905c6adb1f65d06a28a",
+        "bytes": 24476
+      },
+      {
+        "id": "shore-g",
+        "asset": "assets/tiles/shore-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "4c9e3438390ec6403884efcc8fd19ff2f7bb67245303ca20715249fc1dddd3ad",
+        "bytes": 27106
+      },
+      {
+        "id": "coast-g",
+        "asset": "assets/tiles/coast-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "8d9a5e722517dd33de500cb6a5bb41436cef4c27037983576b87c769f5bfa589",
+        "bytes": 25998
+      },
+      {
+        "id": "waterfall-g",
+        "asset": "assets/tiles/waterfall-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "1d28ddf144e8175b9528d09c30ac58c0397d4259ba5dcd4b9f5629e4100ee9ac",
+        "bytes": 35322
+      },
+      {
+        "id": "driftwood-g",
+        "asset": "assets/tiles/driftwood-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "41bab36458062ae001e041d24a3eeeb427e7f86c6f2a8c771ac496c058bd6b7e",
+        "bytes": 29434
+      },
+      {
+        "id": "path-g",
+        "asset": "assets/tiles/path-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "bbfbf7680bc4a6295e6c9091c53bc553d8ae8ad305982cc7c13526c4774ffcfc",
+        "bytes": 32481
+      },
+      {
+        "id": "grass-g",
+        "asset": "assets/tiles/grass-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "f352ce74cb67bd9eedb758a8df09bd04c0298bcfa9ca2078dd7ebc7fa2b78d55",
+        "bytes": 24453
+      },
+      {
+        "id": "tree-g",
+        "asset": "assets/tiles/tree-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "336d616a9bbf52d1f841e171ee46a6fd64890041274f5c38fe548a2b765e84cb",
+        "bytes": 43084
+      },
+      {
+        "id": "desk-g",
+        "asset": "assets/tiles/desk-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "30e077ccaabf62db0509964996af9ef8e146994434c3635d3db4ac766d343de0",
+        "bytes": 18283
+      },
+      {
+        "id": "book-g",
+        "asset": "assets/tiles/book-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "60bf970d099d9805490608bd1197063b2c372bb8254a5bfc214fc385de69a101",
+        "bytes": 15967
+      },
+      {
+        "id": "stems-g",
+        "asset": "assets/tiles/stems-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "cfdf2f85bac9d6215774d703558226cb4f015b4c5298c638dd85544734723b66",
+        "bytes": 28511
+      },
+      {
+        "id": "sunset-g",
+        "asset": "assets/tiles/sunset-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "66b897f13c0c06af957b54a69d00b3f2122760e588398db1c9719b417390c792",
+        "bytes": 21469
+      },
+      {
+        "id": "creek-g",
+        "asset": "assets/tiles/creek-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "9acd10b28693432fdb4395cdfc60b59f35da28505b9f7fba20ab6ac183569b17",
+        "bytes": 39591
+      },
+      {
+        "id": "mountain-g",
+        "asset": "assets/tiles/mountain-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "1916cf50190c2f8f372c6deddd0e69a0858898c2407366d9bad7ef09cf3d4fa0",
+        "bytes": 32982
+      }
+    ],
+    "local_atlas": "assets/atlas-a.jpg",
+    "atlas_sha256": "cc19ba22664ae97053304be18d62665a542ca4bd159c161a3b85575a3ffd3310"
   },
   {
     "id": "atlas-b",
-    "prompt": "Use case: photorealistic-natural.\nAsset type: one square photographic texture atlas: exactly FOUR columns and FOUR rows, sixteen equally sized square panels. No gutters, margins, frames, labels, numbering, text overlays or watermarks. Each panel is a separate photograph, not a continuous scene.\nCreate 16 convincing everyday photographs matching the imperfect feel of varied consumer-camera photographs from 2010\u20132016. Realistic mundane details, varied camera exposure, subtle sensor texture, occasional shallow depth of field. Small irregularities, ordinary framing. Some specifically indicated black-and-white shots; others understated color. No illustration, CGI appearance, fantasy, polished AI gloss, exaggerated cinematic effects. Credible lighting and physical objects. No logos or readable trademarks. One independent scene per panel.\nPanel order, left to right, top to bottom:\nRow 1: (1) a decorated red-and-cream ceramic coffee mug on a pale stone caf\u00e9 table, warm shallow focus, small ornament not readable letters; (2) black-and-white intimate first-person photograph of a pair of bare feet crossed at the ankles against bright window light, correct human anatomy; (3) black-and-white small plain metal bench against an old flaking white plaster courtyard wall; (4) backlit meadow grasses and tiny wildflowers, sun at edge of frame.\nRow 2: (5) old rusted red steel barrel partly obscured by tall grass; (6) close-up golden cactus spines against a blurred mountain background; (7) directly overhead arrangement of disassembled consumer electronics, small circuit boards and screws neatly laid on a cream work surface; (8) a coastal cliff with low shrubs overlooking a hazy gray sea.\nRow 3: (9) one ordinary white cumulus cloud against a muted dark cyan sky; (10) close photograph of a black record-player tonearm and cartridge on a vinyl record, shallow focus; (11) very close cropped face of a sleeping gray cat, nose centered low, natural fur and whiskers; (12) blue-gray water droplets on glass with soft reflected light and shallow focus.\nRow 4: (13) empty wooden caf\u00e9 counter with a small green cup and saucer, bright window beyond; (14) monochrome city suspension bridge at night with skyline behind, amateur long exposure; (15) foggy desaturated coast seen from a bluff, barely visible surf; (16) close front view of an old green-and-orange three-wheel auto rickshaw parked in shade, no legible license plate.\nKeep the exact 4x4 grid. All sixteen frames must look like independently taken photos.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: one square photographic texture atlas: exactly FOUR columns and FOUR rows, sixteen equally sized square panels. No gutters, margins, frames, labels, numbering, text overlays or watermarks. Each panel is a separate photograph, not a continuous scene.\nCreate 16 convincing everyday photographs matching the imperfect feel of varied consumer-camera photographs from 2010–2016. Realistic mundane details, varied camera exposure, subtle sensor texture, occasional shallow depth of field. Small irregularities, ordinary framing. Some specifically indicated black-and-white shots; others understated color. No illustration, CGI appearance, fantasy, polished AI gloss, exaggerated cinematic effects. Credible lighting and physical objects. No logos or readable trademarks. One independent scene per panel.\nPanel order, left to right, top to bottom:\nRow 1: (1) a decorated red-and-cream ceramic coffee mug on a pale stone café table, warm shallow focus, small ornament not readable letters; (2) black-and-white intimate first-person photograph of a pair of bare feet crossed at the ankles against bright window light, correct human anatomy; (3) black-and-white small plain metal bench against an old flaking white plaster courtyard wall; (4) backlit meadow grasses and tiny wildflowers, sun at edge of frame.\nRow 2: (5) old rusted red steel barrel partly obscured by tall grass; (6) close-up golden cactus spines against a blurred mountain background; (7) directly overhead arrangement of disassembled consumer electronics, small circuit boards and screws neatly laid on a cream work surface; (8) a coastal cliff with low shrubs overlooking a hazy gray sea.\nRow 3: (9) one ordinary white cumulus cloud against a muted dark cyan sky; (10) close photograph of a black record-player tonearm and cartridge on a vinyl record, shallow focus; (11) very close cropped face of a sleeping gray cat, nose centered low, natural fur and whiskers; (12) blue-gray water droplets on glass with soft reflected light and shallow focus.\nRow 4: (13) empty wooden café counter with a small green cup and saucer, bright window beyond; (14) monochrome city suspension bridge at night with skyline behind, amateur long exposure; (15) foggy desaturated coast seen from a bluff, barely visible surf; (16) close front view of an old green-and-orange three-wheel auto rickshaw parked in shade, no legible license plate.\nKeep the exact 4x4 grid. All sixteen frames must look like independently taken photos.",
     "columns": 4,
     "rows": 4,
     "tool": "Built-in image_gen.imagegen",
     "created": "2026-10-12",
-    "asset": "assets/atlas-b.jpg",
     "original": "sources/originals/atlas-b.png",
     "width": 1254,
     "height": 1254,
     "original_sha256": "f7dc9d303a08c118f3f08ef4e1488f9ad61e63b52f1d15b87428eaa0585d5222",
-    "published_sha256": "9c960137fd6af8ff85d5419f230d02b2748403b2c60e83b0040e341bbcca6a43",
     "images": 16,
-    "encoding": "JPEG quality 82; original pixels retained before encoding; browser crops 2px from each tile edge and rasterizes all sources identically."
+    "encoding": "Each source cell trimmed by 2px, resized to 256 by 256, and JPEG encoded at quality 82 using macOS sips; same treatment as photographs.",
+    "tiles": [
+      {
+        "id": "mug-g",
+        "asset": "assets/tiles/mug-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "f2b41a17ae48074918adb78913fa1650fb4e335fcfb72bb17b81e2689d63c30b",
+        "bytes": 20911
+      },
+      {
+        "id": "feet-g",
+        "asset": "assets/tiles/feet-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "40cd63cc6fa745311c03b20e45386dc0ead9ade01c82d43561504c24c588f1e6",
+        "bytes": 14877
+      },
+      {
+        "id": "bench-g",
+        "asset": "assets/tiles/bench-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "df4b210175d3eaa64762c77a0f77ec5ed0a148b56236d77865920faabe506a5f",
+        "bytes": 27084
+      },
+      {
+        "id": "wildflowers-g",
+        "asset": "assets/tiles/wildflowers-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "d83bbb5ef0e52e262e45fbfc541fbecd762fc5ccc29b341b35fc5c5e7abac898",
+        "bytes": 28210
+      },
+      {
+        "id": "barrel-g",
+        "asset": "assets/tiles/barrel-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "28e9c7ebc0bd1d0e3c9865edbf81a105777ec18b95792a6513fdb5ec2c2d2c59",
+        "bytes": 37640
+      },
+      {
+        "id": "cactus-g",
+        "asset": "assets/tiles/cactus-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "f129f22b05113c410918ad6499ebe66206c977c6edd9f811b67ab5dad58e2008",
+        "bytes": 28601
+      },
+      {
+        "id": "electronics-g",
+        "asset": "assets/tiles/electronics-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "b2eb32703ec9882c0d549683ceee1307dfcea57b8a8ff35fc5e17924ff868a86",
+        "bytes": 20869
+      },
+      {
+        "id": "cliff-g",
+        "asset": "assets/tiles/cliff-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "8f93d8b1cd8b1cd21a695997e4bbe5e668d158b223704d742ce39a75be058027",
+        "bytes": 22643
+      },
+      {
+        "id": "cloud-g",
+        "asset": "assets/tiles/cloud-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "ab641ce528ad8823e79941401652410b5c0ddaee8aefe44beb655bb99893deb9",
+        "bytes": 8942
+      },
+      {
+        "id": "turntable-g",
+        "asset": "assets/tiles/turntable-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "f80854288b4217b7dda5dc37adb6f2f0f2cec1220a5be59a66fdf73574cae158",
+        "bytes": 15881
+      },
+      {
+        "id": "cat-g",
+        "asset": "assets/tiles/cat-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "cc0ca2c8ade10e58dfbe97dfdb63a31482e8886c281a81bd4d742b07a63ad138",
+        "bytes": 27282
+      },
+      {
+        "id": "droplets-g",
+        "asset": "assets/tiles/droplets-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "6642dc3c31f17fa960cfbea19f653daf6a0cd0e80dc9f82d8c65c463b4e32bdf",
+        "bytes": 31302
+      },
+      {
+        "id": "cafe-g",
+        "asset": "assets/tiles/cafe-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "0d7bad5d1961322992cd447fb3ff432223acbce9b85b43ebc6be7ba538643b9c",
+        "bytes": 22890
+      },
+      {
+        "id": "bridge-g",
+        "asset": "assets/tiles/bridge-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "db2089e2ec22672f56a28c2941f80c6f6246315a2a4d0711bf05050d3be304e1",
+        "bytes": 18966
+      },
+      {
+        "id": "fog-g",
+        "asset": "assets/tiles/fog-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "4f6218c6c0c617802790053a08244e02fa79ec3c300aed728fa72c05131d6c62",
+        "bytes": 14701
+      },
+      {
+        "id": "rickshaw-g",
+        "asset": "assets/tiles/rickshaw-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "b2938cc47592a2d9ffd3d7cc02db0882ab3b32cbb771fcb6bc7e74b5e0ef8415",
+        "bytes": 26506
+      }
+    ],
+    "local_atlas": "assets/atlas-b.jpg",
+    "atlas_sha256": "9c960137fd6af8ff85d5419f230d02b2748403b2c60e83b0040e341bbcca6a43"
   },
   {
     "id": "atlas-c",
-    "prompt": "Use case: photorealistic-natural.\nAsset type: one square photographic texture atlas: exactly FOUR columns and FOUR rows, sixteen equally sized square panels. No gutters, margins, frames, labels, numbering, text overlays or watermarks. Each panel is a separate photograph, not a continuous scene.\nCreate 16 convincing everyday photographs matching the imperfect feel of varied consumer-camera photographs from 2010\u20132016. Realistic mundane details, varied camera exposure, subtle sensor texture, occasional shallow depth of field. Small irregularities, ordinary framing. Some specifically indicated black-and-white shots; others understated color. No illustration, CGI appearance, fantasy, polished AI gloss, exaggerated cinematic effects. Credible lighting and physical objects. No logos or readable trademarks. One independent scene per panel.\nPanel order, left to right, top to bottom:\nRow 1: (1) wide tan desert badlands beneath a cloudless blue sky; (2) monochrome wooden ocean pier seen from the side, pilings disappearing into overcast distance; (3) half-open unbranded aluminum laptop on a wooden kitchen counter, cream tiled wall behind, warm shallow focus; (4) whitewashed hillside Mediterranean buildings and a small old windmill above blue water.\nRow 2: (5) muted warm photo of a seabird perched on a rope beside a wooden boat moored in still water; (6) monochrome empty beach with surf and heavy layered gray clouds; (7) low camera view across sunlit wooden decking toward a distant blurry low skyline; (8) wispy long white cirrus cloud against deep blue afternoon sky.\nRow 3: (9) green rocky hilltop under blue sky and puffy white clouds; (10) tiny green plant growing from a crevice in an old weathered dock above dark water; (11) entirely out-of-focus multicolored city lights at night, soft optical bokeh circles and nothing sharply focused; (12) quiet narrow European cobblestone street between old mid-rise buildings, no readable signs.\nRow 4: (13) monochrome small cylindrical concrete lighthouse with a dark lantern room against cloudy sky; (14) old rough wooden fence post and three strands of wire in dry late-summer grass, pale sky; (15) overhead dark desk arrangement with a partial monitor, cream keyboard, pale mouse, dark notebook and ordinary small accessories, no logos; (16) monochrome elevated view over a dense older European city with rooftops and a church tower, overcast light.\nKeep the exact 4x4 grid. All sixteen frames must look like independently taken photos.",
+    "prompt": "Use case: photorealistic-natural.\nAsset type: one square photographic texture atlas: exactly FOUR columns and FOUR rows, sixteen equally sized square panels. No gutters, margins, frames, labels, numbering, text overlays or watermarks. Each panel is a separate photograph, not a continuous scene.\nCreate 16 convincing everyday photographs matching the imperfect feel of varied consumer-camera photographs from 2010–2016. Realistic mundane details, varied camera exposure, subtle sensor texture, occasional shallow depth of field. Small irregularities, ordinary framing. Some specifically indicated black-and-white shots; others understated color. No illustration, CGI appearance, fantasy, polished AI gloss, exaggerated cinematic effects. Credible lighting and physical objects. No logos or readable trademarks. One independent scene per panel.\nPanel order, left to right, top to bottom:\nRow 1: (1) wide tan desert badlands beneath a cloudless blue sky; (2) monochrome wooden ocean pier seen from the side, pilings disappearing into overcast distance; (3) half-open unbranded aluminum laptop on a wooden kitchen counter, cream tiled wall behind, warm shallow focus; (4) whitewashed hillside Mediterranean buildings and a small old windmill above blue water.\nRow 2: (5) muted warm photo of a seabird perched on a rope beside a wooden boat moored in still water; (6) monochrome empty beach with surf and heavy layered gray clouds; (7) low camera view across sunlit wooden decking toward a distant blurry low skyline; (8) wispy long white cirrus cloud against deep blue afternoon sky.\nRow 3: (9) green rocky hilltop under blue sky and puffy white clouds; (10) tiny green plant growing from a crevice in an old weathered dock above dark water; (11) entirely out-of-focus multicolored city lights at night, soft optical bokeh circles and nothing sharply focused; (12) quiet narrow European cobblestone street between old mid-rise buildings, no readable signs.\nRow 4: (13) monochrome small cylindrical concrete lighthouse with a dark lantern room against cloudy sky; (14) old rough wooden fence post and three strands of wire in dry late-summer grass, pale sky; (15) overhead dark desk arrangement with a partial monitor, cream keyboard, pale mouse, dark notebook and ordinary small accessories, no logos; (16) monochrome elevated view over a dense older European city with rooftops and a church tower, overcast light.\nKeep the exact 4x4 grid. All sixteen frames must look like independently taken photos.",
     "columns": 4,
     "rows": 4,
     "tool": "Built-in image_gen.imagegen",
     "created": "2026-10-12",
-    "asset": "assets/atlas-c.jpg",
     "original": "sources/originals/atlas-c.png",
     "width": 1254,
     "height": 1254,
     "original_sha256": "a4e2186e2baa5be32d5efe7737bcf5ea13f81b21c5212dbb65ab590b9fee97f8",
-    "published_sha256": "7c09d8fe7ef7e4142bc0fec6035a9da3c7762f95a71bff3a0ec54e4b00465fc6",
     "images": 16,
-    "encoding": "JPEG quality 82; original pixels retained before encoding; browser crops 2px from each tile edge and rasterizes all sources identically."
+    "encoding": "Each source cell trimmed by 2px, resized to 256 by 256, and JPEG encoded at quality 82 using macOS sips; same treatment as photographs.",
+    "tiles": [
+      {
+        "id": "badlands-g",
+        "asset": "assets/tiles/badlands-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "5c1d8bb8ab5ac85a1870ba6f28d202c2fdf030582137dbf2f81eee07059fb0af",
+        "bytes": 28823
+      },
+      {
+        "id": "pier-g",
+        "asset": "assets/tiles/pier-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "ae2441d685267f97b7288de025b0814d778b66c0f0511152d45e8a7a2636e015",
+        "bytes": 19804
+      },
+      {
+        "id": "laptop-g",
+        "asset": "assets/tiles/laptop-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "258dc0b420dd793f205aa29049ebdd8cb9b80f0a894277190f5bd82abfa8f19f",
+        "bytes": 15788
+      },
+      {
+        "id": "village-g",
+        "asset": "assets/tiles/village-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 0,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "b2fda6a71a93118478fb63b85c2181de4023d0444a270373c002fd03150a6ed7",
+        "bytes": 26524
+      },
+      {
+        "id": "bird-g",
+        "asset": "assets/tiles/bird-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "82f164fbf271a81dbedc8e1fcfd72eced7de7d1e3ff23e9809f3abd817d2340a",
+        "bytes": 19730
+      },
+      {
+        "id": "overcast-beach-g",
+        "asset": "assets/tiles/overcast-beach-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "0179cb60b020021df9f6144495af49d83093dbf2a2e45d23225305eca9da8f60",
+        "bytes": 14946
+      },
+      {
+        "id": "deck-g",
+        "asset": "assets/tiles/deck-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "511bc8a4dbe4153feb8e4135484c999b4252a075410fde637c5ffdbd25d074af",
+        "bytes": 18000
+      },
+      {
+        "id": "cirrus-g",
+        "asset": "assets/tiles/cirrus-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 1,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "49713534b570f56eeac0d9b6136d4c0dd5cd09d3549970c398f5916e7155386b",
+        "bytes": 10861
+      },
+      {
+        "id": "hilltop-g",
+        "asset": "assets/tiles/hilltop-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "6e09aa0138c6a6e1929af4e8d44a9cd8bfadb712137cadd5b50551f30f60d967",
+        "bytes": 27332
+      },
+      {
+        "id": "seedling-g",
+        "asset": "assets/tiles/seedling-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "8642fec79824c044f4fd5cb4bc6519cb1facd0c9595f15654baf18f3e46fa89f",
+        "bytes": 30397
+      },
+      {
+        "id": "bokeh-g",
+        "asset": "assets/tiles/bokeh-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "42191f616fc464a3736565153db8b4d1105caea89dac4e6a9f1eabcc56df09d6",
+        "bytes": 13422
+      },
+      {
+        "id": "street-g",
+        "asset": "assets/tiles/street-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 2,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "53b6d93cef9659e103689e6b35327b31504dea4817b0c2ec765722b629f8c232",
+        "bytes": 29827
+      },
+      {
+        "id": "lighthouse-g",
+        "asset": "assets/tiles/lighthouse-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "9b089b2de6e98903630716a7f197a3aaf56865a90dbea3772646fd097c489303",
+        "bytes": 17342
+      },
+      {
+        "id": "fence-g",
+        "asset": "assets/tiles/fence-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "3124746d9c944803dbe6445de58d1404855c852a4357cb1ff3724764fb78f60d",
+        "bytes": 29688
+      },
+      {
+        "id": "workspace-g",
+        "asset": "assets/tiles/workspace-g.jpg",
+        "cell": {
+          "column": 2,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "ca25d8126bf682dc9b6915170951db909bdf34569bce7aa79b0faffd9bd0145c",
+        "bytes": 18839
+      },
+      {
+        "id": "rooftops-g",
+        "asset": "assets/tiles/rooftops-g.jpg",
+        "cell": {
+          "column": 3,
+          "row": 3,
+          "columns": 4,
+          "rows": 4
+        },
+        "sha256": "6c87459f9b2752a95bba97f4c10101b4e1694e38a89488cc61f91cc0fde21d52",
+        "bytes": 23758
+      }
+    ],
+    "local_atlas": "assets/atlas-c.jpg",
+    "atlas_sha256": "7c09d8fe7ef7e4142bc0fec6035a9da3c7762f95a71bff3a0ec54e4b00465fc6"
   },
   {
     "id": "atlas-d",
@@ -54,13 +636,39 @@
     "rows": 1,
     "tool": "Built-in image_gen.imagegen",
     "created": "2026-10-12",
-    "asset": "assets/atlas-d.jpg",
     "original": "sources/originals/atlas-d.png",
     "width": 1774,
     "height": 887,
     "original_sha256": "5b1ca5c80744acc4af7b764f6a8c44991081a68f6dc9d547f514b2cebbdc6e84",
-    "published_sha256": "2b777a2a6d8aca5ae5c457a980aa77c57590d0030807333a0de994f0291978b6",
     "images": 2,
-    "encoding": "JPEG quality 82; original pixels retained before encoding; browser crops 2px from each tile edge and rasterizes all sources identically."
+    "encoding": "Each source cell trimmed by 2px, resized to 256 by 256, and JPEG encoded at quality 82 using macOS sips; same treatment as photographs.",
+    "tiles": [
+      {
+        "id": "valley-g",
+        "asset": "assets/tiles/valley-g.jpg",
+        "cell": {
+          "column": 0,
+          "row": 0,
+          "columns": 2,
+          "rows": 1
+        },
+        "sha256": "a3dabc5879d06dcccfca1212536c261d99f26d767202a5a581df818af175d619",
+        "bytes": 24796
+      },
+      {
+        "id": "coffee-g",
+        "asset": "assets/tiles/coffee-g.jpg",
+        "cell": {
+          "column": 1,
+          "row": 0,
+          "columns": 2,
+          "rows": 1
+        },
+        "sha256": "95ca1809651e514456a1ba7e3ab7eae0ae4088e6f0cd0d149c6007f90fca31d5",
+        "bytes": 15504
+      }
+    ],
+    "local_atlas": "assets/atlas-d.jpg",
+    "atlas_sha256": "2b777a2a6d8aca5ae5c457a980aa77c57590d0030807333a0de994f0291978b6"
   }
 ]

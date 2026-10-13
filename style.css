@@ -19,10 +19,10 @@ main {
   min-height: 100svh;
   display: grid;
   place-items: center;
-  padding: 24px 12px;
+  padding: max(24px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
 }
 
-button { font: inherit; -webkit-tap-highlight-color: transparent; }
+button { font: inherit; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 
 .captcha {
   width: min(404px, 100%);
@@ -40,6 +40,7 @@ button { font: inherit; -webkit-tap-highlight-color: transparent; }
 
 .prompt > span { font-size: 15px; line-height: 1.4; }
 .prompt h1 { margin: 4px 0 15px; font-size: 27px; line-height: 1.15; }
+.prompt h1 span { white-space: nowrap; }
 .prompt p { margin: 0; font-size: 12px; line-height: 1.5; }
 
 .grid {
@@ -73,6 +74,7 @@ button { font: inherit; -webkit-tap-highlight-color: transparent; }
   transition: transform 110ms ease-out;
   user-select: none;
   -webkit-user-drag: none;
+  -webkit-touch-callout: none;
 }
 
 .ready .picture { opacity: 1; }
@@ -113,7 +115,7 @@ button { font: inherit; -webkit-tap-highlight-color: transparent; }
 
 .verify {
   min-width: 106px;
-  min-height: 42px;
+  min-height: 48px;
   padding: 10px 18px;
   border: 1px solid transparent;
   border-radius: 2px;
@@ -139,10 +141,30 @@ button { font: inherit; -webkit-tap-highlight-color: transparent; }
 [hidden] { display: none !important; }
 
 @media (max-width: 360px) {
-  main { padding: 16px 9px; }
+  main { padding: max(16px, env(safe-area-inset-top)) max(9px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(9px, env(safe-area-inset-left)); }
   .prompt { padding: 19px 14px 17px; }
   .prompt h1 { font-size: 25px; }
   .prompt p { font-size: 11px; }
+}
+
+@media (max-height: 540px) and (min-width: 480px) and (orientation: landscape) {
+  main { padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
+  .captcha {
+    width: min(620px, calc(100svh + 150px), 100%);
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    grid-template-rows: 1fr auto;
+    gap: 7px;
+  }
+  .prompt { grid-column: 1; grid-row: 1; padding: 12px 14px; }
+  .prompt > span { font-size: 13px; }
+  .prompt h1 { font-size: 23px; margin-bottom: 10px; }
+  .prompt p { font-size: 11px; }
+  .grid { grid-column: 2; grid-row: 1 / span 2; margin: 0; align-self: center; }
+  .controls { grid-column: 1; grid-row: 2; margin: 0; padding: 8px 4px 0; flex-wrap: wrap; gap: 8px; }
+  .identity svg { width: 20px; height: 20px; }
+  .verify { width: 100%; }
+  .notice { grid-column: 1 / -1; }
 }
 
 @media (prefers-reduced-motion: reduce) {

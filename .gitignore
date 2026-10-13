@@ -5,3 +5,4 @@ sources/originals/
 sources/gallery*.html
 sources/expansion.json
 assets/atlas.png
+/assets/*.jpg

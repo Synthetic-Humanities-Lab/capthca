@@ -22,34 +22,21 @@ function savePreviousKey(key) {
 }
 
 const challenge = createChallenge(imageLibrary, Math.random, readPreviousKey());
-const sources = new Map();
 
-function loadSource(src) {
-  if (!sources.has(src)) {
-    sources.set(src, new Promise((resolve, reject) => {
-      const image = new Image();
-      const timer = setTimeout(() => reject(new Error(`Image load timed out: ${src}`)), 12000);
-      image.onload = () => { clearTimeout(timer); resolve(image); };
-      image.onerror = () => { clearTimeout(timer); reject(new Error(`Image failed to load: ${src}`)); };
-      image.src = src;
-    }));
-  }
-  return sources.get(src);
-}
-
-// Give every tile the same dimensions and JPEG treatment, regardless of origin.
-function tileImage(source, cell) {
-  const canvas = document.createElement('canvas');
-  canvas.width = 256;
-  canvas.height = 256;
-  const context = canvas.getContext('2d');
-  if (!context) throw new Error('Image rendering is unavailable.');
-  const width = source.naturalWidth / (cell?.columns ?? 1);
-  const height = source.naturalHeight / (cell?.rows ?? 1);
-  // Trim the same small edge from every source, including atlas cell seams.
-  const inset = 2;
-  context.drawImage(source, (cell?.column ?? 0) * width + inset, (cell?.row ?? 0) * height + inset, width - inset * 2, height - inset * 2, 0, 0, 256, 256);
-  return canvas.toDataURL('image/jpeg', .82);
+function loadPicture(picture, src) {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error(`Image load timed out: ${src}`)), 20000);
+    picture.onload = async () => {
+      try { await picture.decode(); resolve(); }
+      catch { reject(new Error(`Image failed to decode: ${src}`)); }
+      finally { clearTimeout(timer); }
+    };
+    picture.onerror = () => {
+      clearTimeout(timer);
+      reject(new Error(`Image failed to load: ${src}`));
+    };
+    picture.src = src;
+  });
 }
 
 const loads = challenge.map((image, index) => {
@@ -78,10 +65,7 @@ const loads = challenge.map((image, index) => {
     button.setAttribute('aria-pressed', String(selection.has(image.id)));
   });
 
-  return loadSource(image.src).then(async source => {
-    picture.src = tileImage(source, image.cell);
-    await picture.decode();
-  });
+  return loadPicture(picture, image.src);
 });
 
 Promise.all(loads).then(() => {
